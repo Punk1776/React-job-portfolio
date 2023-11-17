@@ -1,0 +1,49 @@
+.project {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Add some padding for better mobile layout */
+  }
+  
+  .project h1 {
+    margin-top: 20px;
+    color: #3e497a;
+    font-size: 24px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .project p {
+    font-size: 20px;
+    color: #3e497a;
+    margin-top: 20px;
+  }
+  
+  .project svg {
+    font-size: 40px;
+    color: #3e497a;
+    margin-top: 20px;
+  }
+  
+  /* Media Query for smaller screens (e.g., mobile devices) */
+  @media only screen and (max-width: 600px) {
+    .project h1 {
+      font-size: 18px;
+    }
+  
+    .project p {
+      font-size: 16px;
+    }
+  
+    .project svg {
+      font-size: 30px;
+    }
+  }

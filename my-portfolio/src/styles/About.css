@@ -1,0 +1,18 @@
+h1 {
+    color: #333;
+  
+  }
+  
+  p {
+    margin-bottom: 20px;
+    
+  }
+  .my-photo {
+    width: 200px; /* Set the width to your preference */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Make the image circular */
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+    
+  }
+
+ 
