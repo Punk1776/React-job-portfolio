@@ -1,6 +1,6 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GithubIcon from "@material-ui/icons/GitHub";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "../styles/Home.css";
 
 function Home() {
@@ -11,10 +11,10 @@ function Home() {
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
           <a href="https://github.com/Punk1776" target="_blank" rel="noopener noreferrer">
-            <GithubIcon />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a href="https://www.linkedin.com/in/matthew-miller-b7765229a/" target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
       </div>
