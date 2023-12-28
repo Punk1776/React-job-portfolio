@@ -1,6 +1,6 @@
 import Proj1 from "../assets/create.PNG";
 import Proj2 from "../assets/Note.PNG";
-import Proj3 from "../assets/26690.jpg";
+import Proj3 from "../assets/site-pic.PNG";
 
 export const ProjectList = [
   {
@@ -16,9 +16,9 @@ export const ProjectList = [
     link: "https://dont-forgor-f4cbf536e6e7.herokuapp.com/",
   },
   {
-    name: "Coming soon",
+    name: "QUANTUM THREADS CO.",
     image: Proj3,
-    skills: "Coming soon",
-    link: "Coming soon",
+    skills: "HTML, CSS, JavaScript, Node.js, Express.js, Heroku, mongodb",
+    link: "https://quantum-threads-d47bbac449c1.herokuapp.com/",
   },
 ];
