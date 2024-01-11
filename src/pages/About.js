@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
-import myImage from '../assets/Logo_mm.png'; // Replace 'my-photo.jpg' with your actual image file
-
+import myImage from '../assets/Logo_mm.png'; 
+import cert from '../assets/pic-of-cert.PNG';
 const About = () => {
   // Define your skills as an array
   const skills = [
@@ -23,12 +23,12 @@ const About = () => {
       <p>
         Welcome to my personal website! My name is Matthew, and I am a passionate
         web developer with knowledge in full-stack development. I love creating innovative and user-friendly web applications that solve real-world problems as well 
-        as problem-solving others' websites.
+        as problem-solving others websites.
       </p>
       
       <p>
         In my free time, I enjoy playing video games, going to the gym, and hiking. Feel free to explore my
-        portfolio to see some of the projects I've worked on and take a look below at my Resume.
+        portfolio to see some of the projects I've worked on, below is my skills along with my certificate in full stack development also take a look at my Resume.
       </p>
 
      
@@ -41,6 +41,8 @@ const About = () => {
           {skills.map((skill, index) => (
             <li key={index}>{skill}</li>
           ))}
+
+           <img src={cert} alt="Certificates" className="cert-pic" />
         </ul>
       </div>
 
